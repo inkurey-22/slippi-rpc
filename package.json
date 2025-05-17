@@ -1,0 +1,32 @@
+{
+  "name": "slippi-rpc",
+  "version": "1.0.0",
+  "description": "A Discord RPC for Slippi",
+  "keywords": [
+    "slippi",
+    "discord",
+    "rpc",
+    "melee"
+  ],
+  "homepage": "https://github.com/inkurey-22/slippi-rpc#readme",
+  "bugs": {
+    "url": "https://github.com/inkurey-22/slippi-rpc/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inkurey-22/slippi-rpc.git"
+  },
+  "license": "ISC",
+  "author": "Inkurey22",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@slippi/slippi-js": "^6.7.0",
+    "@vinceau/slp-realtime": "^4.0.0",
+    "discord-rpc": "^4.0.1"
+  }
+}
