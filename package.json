@@ -27,6 +27,7 @@
   "dependencies": {
     "@slippi/slippi-js": "^6.7.0",
     "@vinceau/slp-realtime": "^4.0.0",
-    "discord-rpc": "^4.0.1"
+    "discord-rpc": "^4.0.1",
+    "rxjs": "^6.6.7"
   }
 }
