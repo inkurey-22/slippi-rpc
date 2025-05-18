@@ -40,7 +40,7 @@ npm start
 
 Or just use the Windows binary given in the releases
 
-Ensure that you have the Slippi Dolphin emulator running and connected to the Slippi client for the Discord Rich Presence to update correctly.
+Make sure that you have Slippi Dolphin running before launching the RPC.
 
 ## Contributing
 
