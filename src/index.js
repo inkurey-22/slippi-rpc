@@ -118,7 +118,8 @@ realtime.game.end$
 realtime.stock.playerSpawn$.subscribe((stock) => {
     const { playerIndex, count } = stock;
     stocks[playerIndex] = count;
-    globalActivity.state = `${stocks[0]} stocks to ${stocks[1]}`;
+    const stockWord = stocks[0] <= 1 ? "stock" : "stocks";
+    globalActivity.state = `${stocks[0]} ${stockWord} to ${stocks[1]}`;
     globalActivity.startTimestamp = startTimestamp;
     client.setActivity(globalActivity);
 });
