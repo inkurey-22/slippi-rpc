@@ -11,15 +11,9 @@ This project integrates Discord Rich Presence with Slippi Dolphin games, allowin
 ## Project Structure
 
 ```
-slippi-discord-rpc
+slippi-rpc
 ├── src
 │   ├── index.js            # Entry point of the application
-│   ├── slippi
-│   │   └── slippiClient.js # Handles connection to Slippi Dolphin games
-│   ├── discord
-│   │   └── rpcClient.js    # Manages Discord Rich Presence
-│   └── utils
-│       └── helpers.js      # Utility functions for data formatting
 ├── package.json             # npm configuration file
 └── README.md                # Project documentation
 ```
@@ -49,7 +43,3 @@ Ensure that you have the Slippi Dolphin emulator running and connected to the Sl
 ## Contributing
 
 Feel free to submit issues or pull requests for improvements or bug fixes. 
-
-## License
-
-This project is licensed under the MIT License.
